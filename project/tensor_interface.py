@@ -225,7 +225,7 @@ def render_tensor_sandbox(hide_function_defs: bool):
         st.text_input("Tensor shape", value="(2, 2, 2)"),
         "Tensor shape must be defined as an in-line tuple, i.e. (2, 2, 2)",
     )
-    tensor_size = int(operators.prod(tensor_shape))
+    tensor_size = int(operators.prod(list(tensor_shape)))
     random_tensor = st.checkbox("Fill tensor with random numbers", value=True)
     if random_tensor:
         tensor_data = np.round(rng.rand(tensor_size), 2)

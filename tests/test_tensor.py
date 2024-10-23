@@ -197,6 +197,8 @@ def test_reduce_forward_one_dim() -> None:
 
     # shape (2)
     t_sum_expected = tensor([[11, 16]])
+    print(t_summed.shape)
+    print(t_sum_expected.shape)
     assert t_summed.is_close(t_sum_expected).all().item()
 
 
