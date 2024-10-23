@@ -20,7 +20,7 @@ The files that will be synced are:
 
 
 
-1. Simple 
+1. Simple
 Number of points: 50
 Size of Hidden Layer: 2
 Learning Rate: 0.5

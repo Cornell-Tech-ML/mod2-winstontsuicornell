@@ -233,23 +233,25 @@ class SimpleOps(TensorOps):
         """Matrix multiplication"""
         # Ensure that the number of columns in 'a' matches the number of rows in 'b'
         if a.shape[1] != b.shape[0]:
-            raise ValueError("Incompatible dimensions for matrix multiplication: "
-                            f"{a.shape[0]}x{a.shape[1]} cannot be multiplied by {b.shape[0]}x{b.shape[1]}")
-        
+            raise ValueError(
+                "Incompatible dimensions for matrix multiplication: "
+                f"{a.shape[0]}x{a.shape[1]} cannot be multiplied by {b.shape[0]}x{b.shape[1]}"
+            )
+
         # Dimensions for the resulting matrix
         m, n = a.shape[0], b.shape[1]
         p = a.shape[1]  # This is also the number of rows in 'b'
-        
+
         # Initialize the output tensor with zeros
         result = a.zeros((m, n))
-        
+
         # Iterate through rows of 'a' and columns of 'b' to compute dot products
         for i in range(m):
             for j in range(n):
                 # Compute the dot product of the i-th row of 'a' and the j-th column of 'b'
                 dot_product = sum(a[i, k] * b[k, j] for k in range(p))
                 result[i, j] = dot_product
-        
+
         return result
 
     is_cuda = False
