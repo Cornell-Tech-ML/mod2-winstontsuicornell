@@ -89,7 +89,7 @@ def test_permute(data: DataObject) -> None:
     assert td.index(ind) == td2.index(ind)
 
 
-# ## Tasks 2.2
+## Tasks 2.2
 
 # Check basic properties of broadcasting.
 
