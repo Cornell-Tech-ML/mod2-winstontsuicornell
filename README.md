@@ -21,12 +21,15 @@ The files that will be synced are:
 
 
 1. Simple
-Number of points: 50
-Size of Hidden Layer: 2
-Learning Rate: 0.5
-Number of Epochs: 500.
-Epoch 500/500. Time per epoch: 0.033s. Time left: 0.00s.
-Logs:
+- Number of points: 50
+- Size of Hidden Layer: 2
+- Learning Rate: 0.5
+- Number of Epochs: 500
+- Epoch 500/500. Time per epoch: 0.033s. Time left: 0.00s.
+![Image 1](1.png)
+
+<details>
+  <summary>Click to see logs</summary>
 Epoch: 0/500, loss: 0, correct: 0
 Epoch: 10/500, loss: 33.367573903149264, correct: 30
 Epoch: 20/500, loss: 32.972918497616476, correct: 30
@@ -78,17 +81,20 @@ Epoch: 470/500, loss: 0.496750406266604, correct: 50
 Epoch: 480/500, loss: 0.4840962588880052, correct: 50
 Epoch: 490/500, loss: 0.4719361166789052, correct: 50
 Epoch: 500/500, loss: 0.46024074313094204, correct: 50
-
-
-
+</details>
+<br>
+<br>
 
 2. Diag
-Number of points: 50
-Size of Hidden Layer: 2
-Learning Rate: 0.5
-Number of Epochs: 500.
-Epoch 500/500. Time per epoch: 0.034s. Time left: 0.00s.
-Logs:
+- Number of points: 50
+- Size of Hidden Layer: 2
+- Learning Rate: 0.5
+- Number of Epochs: 500.
+- Epoch 500/500. Time per epoch: 0.034s. Time left: 0.00s.
+![Image 2](2.png)
+
+<details>
+  <summary>Click to see logs</summary>
 Epoch: 0/500, loss: 0, correct: 0
 Epoch: 10/500, loss: 10.124979752642842, correct: 48
 Epoch: 20/500, loss: 8.57104602537363, correct: 48
@@ -140,17 +146,22 @@ Epoch: 470/500, loss: 0.8704317002239649, correct: 50
 Epoch: 480/500, loss: 0.8305033812746653, correct: 50
 Epoch: 490/500, loss: 0.7869644929508095, correct: 50
 Epoch: 500/500, loss: 0.7506231266762601, correct: 50
+</details>
 
-
+<br>
+<br>
 
 
 3. Split
-Number of points: 50
-Size of Hidden Layer: 2
-Learning Rate: 0.5
-Number of Epochs: 500.
-Epoch 500/500. Time per epoch: 0.034s. Time left: 0.00s.
-Logs:
+- Number of points: 50
+- Size of Hidden Layer: 2
+- Learning Rate: 0.5
+- Number of Epochs: 500.
+- Epoch 500/500. Time per epoch: 0.034s. Time left: 0.00s.
+![Image 3](3.png)
+
+<details>
+  <summary>Click to see logs</summary>
 Epoch: 0/500, loss: 0, correct: 0
 Epoch: 10/500, loss: 34.34209663143849, correct: 28
 Epoch: 20/500, loss: 33.72834519598348, correct: 32
@@ -202,16 +213,21 @@ Epoch: 470/500, loss: 4.081208891843723, correct: 48
 Epoch: 480/500, loss: 4.2220808645054095, correct: 48
 Epoch: 490/500, loss: 4.0164062434212315, correct: 48
 Epoch: 500/500, loss: 3.924811162815275, correct: 48
+</details>
 
-
+<br>
+<br>
 
 4. Xor
-Number of points: 50
-Size of Hidden Layer: 2
-Learning Rate: 0.5
-Number of Epochs: 500.
-Epoch 500/500. Time per epoch: 0.034s. Time left: 0.00s.
-Logs:
+- Number of points: 50
+- Size of Hidden Layer: 2
+- Learning Rate: 0.5
+- Number of Epochs: 500.
+- Epoch 500/500. Time per epoch: 0.034s. Time left: 0.00s.
+![Image 4](4.png)
+
+<details>
+  <summary>Click to see logs</summary>
 Epoch: 0/500, loss: 0, correct: 0
 Epoch: 10/500, loss: 34.563038489152255, correct: 27
 Epoch: 20/500, loss: 34.492730961601374, correct: 27
@@ -263,14 +279,21 @@ Epoch: 470/500, loss: 22.772289247762515, correct: 39
 Epoch: 480/500, loss: 22.643541261085893, correct: 40
 Epoch: 490/500, loss: 22.920725985666802, correct: 40
 Epoch: 500/500, loss: 22.657729676984463, correct: 40
+</details>
+
+<br>
+<br>
 
 5. Circle
-Number of points: 50
-Size of Hidden Layer: 2
-Learning Rate: 0.5
-Number of Epochs: 500.
-Epoch 500/500. Time per epoch: 0.034s. Time left: 0.00s.
-Logs:
+- Number of points: 50
+- Size of Hidden Layer: 2
+- Learning Rate: 0.5
+- Number of Epochs: 500.
+- Epoch 500/500. Time per epoch: 0.034s. Time left: 0.00s.
+![Image 5](5.png)
+
+<details>
+  <summary>Click to see logs</summary>
 Epoch: 0/500, loss: 0, correct: 0
 Epoch: 10/500, loss: 29.602367740029127, correct: 36
 Epoch: 20/500, loss: 29.539513627909578, correct: 36
@@ -322,16 +345,21 @@ Epoch: 470/500, loss: 16.280312435922422, correct: 40
 Epoch: 480/500, loss: 17.130815697512574, correct: 40
 Epoch: 490/500, loss: 18.07894409661277, correct: 40
 Epoch: 500/500, loss: 16.815021447632983, correct: 40
+</details>
 
-
+<br>
+<br>
 
 6. Spiral
-Number of points: 50
-Size of Hidden Layer: 2
-Learning Rate: 0.5
-Number of Epochs: 500.
-Epoch 500/500. Time per epoch: 0.036s. Time left: 0.00s.
-Logs:
+- Number of points: 50
+- Size of Hidden Layer: 2
+- Learning Rate: 0.5
+- Number of Epochs: 500.
+- Epoch 500/500. Time per epoch: 0.036s. Time left: 0.00s.
+![Image 6](6.png)
+
+<details>
+  <summary>Click to see logs</summary>
 Epoch: 0/500, loss: 0, correct: 0
 Epoch: 10/500, loss: 34.586937111572134, correct: 25
 Epoch: 20/500, loss: 34.48583814544609, correct: 29
@@ -383,3 +411,4 @@ Epoch: 470/500, loss: 32.112608985634495, correct: 29
 Epoch: 480/500, loss: 32.06042952356934, correct: 29
 Epoch: 490/500, loss: 32.052822143283265, correct: 29
 Epoch: 500/500, loss: 32.01868930408452, correct: 27
+</details>
